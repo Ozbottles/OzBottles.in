@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oz Bottles | Pour Your brand Forward</title>
+  <meta
+    name="description"
+    content="Oz Bottles creates premium packaged drinking water with luxury bottle design and custom branding for hotels, events, and premium retail."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="grain">
+  <header class="site-header">
+    <nav class="container nav-wrap">
+      <div class="brand">Oz Bottles</div>
+      <a class="cta-mini" href="#contact">Request Luxury Samples</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Trusted Premium Hydration</p>
+          <h1>Luxury bottled water designed to elevate your brand presence.</h1>
+          <div class="brand-signature reveal">
+            <p class="signature-name">Oz Bottles</p>
+            <p class="signature-tagline">Pour Your brand Forward</p>
+          </div>
+          <p class="tagline">
+            We craft private-label PET bottles with premium finishing and visual
+            storytelling inspired by modern luxury sites - bold hero imagery,
+            cleaner typography, and elegant depth that creates instant trust.
+          </p>
+          <div class="btns">
+            <a class="btn btn-primary" href="#contact">Start Your Custom Line</a>
+            <a class="btn btn-ghost" href="#features">Explore Premium Features</a>
+          </div>
+        </div>
+
+        <article class="bottle-card reveal">
+          <div class="bottle-visuals">
+            <img class="bottle-image" src="./bottle-premium.jpg" alt="Premium black-glass style bottle on dark luxury background" />
+            <img class="bottle-image bottle-image-secondary" src="./bottle-clear.webp" alt="Clear PET bottle with premium cap for private label branding" />
+          </div>
+          <p class="bottle-copy">
+            Signature bottle styling with custom label placement, metallic cap
+            accents, and premium silhouette options for <strong>500ml</strong>
+            and <strong>1L</strong> lines.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <h2>Signature bottle graphics</h2>
+      <p class="lead">
+        Built around your provided visuals, this creative direction uses cinematic
+        bottle photography, layered glow graphics, and clean luxury framing to
+        present Oz Bottles as both trustworthy and premium.
+      </p>
+      <div class="gallery-grid">
+        <figure class="gallery-card">
+          <img src="./bottle-premium.jpg" alt="Black premium bottle hero visual" />
+          <figcaption>Dark Prestige Edition</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="./bottle-clear.webp" alt="Transparent premium bottle visual" />
+          <figcaption>Crystal Trust Edition</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section container reveal" id="features">
+      <h2>What makes Oz Bottles premium</h2>
+      <p class="lead">
+        From label texture to cap detailing, every element is refined for a
+        prestige-first experience. Your logo, your colors, your identity -
+        executed with luxury-grade consistency.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Luxury Brand Customization</h3>
+          <p>
+            Private-label design with premium inks, foil effects, elegant
+            typography, and high-finish visual language aligned to your brand.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Premium PET Bottle Build</h3>
+          <p>
+            Crystal-clear PET material, sleek ergonomic silhouette, and
+            sophisticated cap architecture to elevate shelf and table presence.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Prestige-Ready Production</h3>
+          <p>
+            Consistent quality for hospitality, weddings, luxury events, and
+            boutique retail channels where visual detail influences perception.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <h2>Available bottle sizes</h2>
+      <p class="lead">
+        Engineered for premium positioning across multiple use-cases, from
+        executive meetings to grand celebrations.
+      </p>
+      <div class="sizes">
+        <span class="pill">500ml Premium PET</span>
+        <span class="pill">1L Premium PET</span>
+        <span class="pill">Custom Brand Label</span>
+        <span class="pill">Luxury Cap and Neck Finish</span>
+      </div>
+    </section>
+
+    <section class="section container reveal" id="contact">
+      <h2>Raise your enquiry with Oz Bottles</h2>
+      <p class="lead">
+        Share your details and customer type. All fields are mandatory except
+        query, so our team can respond with the right premium bottle proposal.
+      </p>
+      <form class="enquiry-form" id="enquiry-form">
+        <div class="form-grid">
+          <label>
+            Name *
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Phone Number *
+            <input type="tel" name="phone" pattern="[0-9]{10}" title="Enter 10-digit phone number" required />
+          </label>
+          <label>
+            Email *
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Pincode *
+            <input type="text" name="pincode" pattern="[0-9]{6}" title="Enter 6-digit pincode" required />
+          </label>
+          <label>
+            Type of Customer *
+            <select name="customerType" required>
+              <option value="" selected disabled>Select customer type</option>
+              <option value="Restaurant">Restaurant</option>
+              <option value="College Fest">College Fest</option>
+              <option value="Wedding Hall">Wedding Hall</option>
+              <option value="Corporate">Corporate</option>
+              <option value="Hotel">Hotel</option>
+              <option value="Event Organizer">Event Organizer</option>
+            </select>
+          </label>
+          <label class="full-width">
+            Query (Optional)
+            <textarea name="query" rows="4" placeholder="Tell us your requirement (optional)"></textarea>
+          </label>
+        </div>
+        <div class="btns form-actions">
+          <button class="btn btn-primary" type="submit">Submit Enquiry</button>
+          <a class="btn btn-ghost" href="tel:+910000000000">+91 00000 00000</a>
+        </div>
+        <p class="form-note">* Mandatory fields</p>
+        <p class="form-status" id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    Oz Bottles &copy; 2026 - Pour Your brand Forward
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
