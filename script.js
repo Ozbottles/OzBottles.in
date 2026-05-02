@@ -37,7 +37,7 @@ if (enquiryForm) {
     }
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/ajayagrawal.1195.2024@hinducollege.ac.in", {
+      const response = await fetch("https://formsubmit.co/ajax/aabusiness77777@gmail.com", {
         method: "POST",
         body: formData,
         headers: {
